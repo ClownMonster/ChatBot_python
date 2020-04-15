@@ -1,0 +1,25 @@
+body{
+    background-color:  #d0d3d4 ;
+}
+
+.InputForm
+{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.InputForm > form > input{
+    width: 22rem;
+    height: 2.2rem;
+    border: 1px solid wheat;
+    box-shadow: 1px 1px 1px 1px;
+}
