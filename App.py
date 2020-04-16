@@ -19,8 +19,8 @@ def index():
 @app.route('/send', methods = ['GET', 'POST'])
 def send():
     global clownbot
-    if request.method == 'POST':
-        user_query = request.form['message']
+    if request.method == 'POST': 
+        user_query = request.form['message'] # user input message
     return render_template('index.html', response = clownbot.get_response(user_query)  )
 
 if __name__ == "__main__":
