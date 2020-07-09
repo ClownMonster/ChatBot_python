@@ -1,0 +1,4 @@
+chatterbot==1.0.0
+chatterbot-copus==1.2.0
+flask
+requests
